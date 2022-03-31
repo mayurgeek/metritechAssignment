@@ -1,0 +1,18 @@
+{"client":"Thunder Client",
+    "collectionName":"auth",
+    "dateExported":"2022-03-31T08:03:01.162Z",
+    "version":"1.1",
+    "folders":[],"requests":[{"containerId":"","sortNum":10000,"headers":[{"name":"Accept","value":"*/*"},
+    {"name":"User-Agent",
+    "value":"Thunder Client (https://www.thunderclient.com)"},
+    {"name":"Content-Type","value":"application/json"}],
+    "colId":"bedbc2c4-445c-4616-be08-d12c8329277e",
+    "name":"user sign up",
+    "url":"localhost:5000/api/auth/createuser","method":"POST",
+    "modified":"2022-03-31T07:57:54.550Z",
+    "created":"2022-03-30T10:23:53.369Z",
+    "_id":"1322794c-21d5-42a9-af09-f312ccd98865",
+    "params":[],
+
+    "body":{"type":"json","raw":"{\n\"name\":\"mayur yadav\",\n\"password\":\"1234567890\",\n\"email\":\"mayuryadav@gmail.com\",\n\"date_of_birth\":\"30 7 1999\"\n    \n}",
+        "form":[]},"tests":[]},{"containerId":"","sortNum":20000,"headers":[{"name":"Accept","value":"*/*"},{"name":"User-Agent","value":"Thunder Client (https://www.thunderclient.com)"},{"name":"Content-Type","value":"application/json"}],"colId":"bedbc2c4-445c-4616-be08-d12c8329277e","name":"user login","url":"localhost:5000/api/auth/login","method":"POST","modified":"2022-03-31T07:58:16.651Z","created":"2022-03-30T10:25:56.107Z","_id":"05730472-adb7-4a62-92d2-ffb9cadac1ff","params":[],"body":{"type":"json","raw":"{\"email\":\"mayuryadav@gmail.com\",\"password\":\"1234567890\"}","form":[]},"tests":[]},{"containerId":"","sortNum":30000,"headers":[{"name":"Accept","value":"*/*"},{"name":"User-Agent","value":"Thunder Client (https://www.thunderclient.com)"},{"name":"authtoken","value":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjI0NTVkYzNlMWFjYTA3ZDA3MzM1NjAyIn0sImlhdCI6MTY0ODcxMzI0N30.u148wSj3SDnRsSObtC7BrQoGSHHY-W1AJYTviebi0u0"}],"colId":"bedbc2c4-445c-4616-be08-d12c8329277e","name":"get user by token","url":"localhost:5000/api/auth/getuser","method":"POST","modified":"2022-03-31T07:54:30.144Z","created":"2022-03-30T10:26:29.119Z","_id":"de6b2517-0bff-43f5-8d8f-3ef30cb86d8d","params":[],"tests":[]}]}
